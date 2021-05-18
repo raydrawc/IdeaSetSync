@@ -1,0 +1,7 @@
+<templateSet group="erlang">
+  <template name="&gt;--" value="%% ----------------------------------------------------&#10;%% &#10;%% ----------------------------------------------------" description="show ---" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>

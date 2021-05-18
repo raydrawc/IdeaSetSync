@@ -1,0 +1,20 @@
+<application>
+  <component name="FileTypeManager" version="18">
+    <extensionMap>
+      <mapping pattern="EMAKE" type="AUTO_DETECTED" />
+      <mapping pattern="EMakefile" type="AUTO_DETECTED" />
+      <mapping pattern="unity default resources" type="AUTO_DETECTED" />
+      <mapping pattern="unity_builtin_extra" type="AUTO_DETECTED" />
+      <mapping ext="gradle.kts" type="Kotlin" />
+      <mapping ext="main.kts" type="Kotlin" />
+      <mapping pattern="gemfile.lock" type="PLAIN_TEXT" />
+      <mapping ext="py" type="PLAIN_TEXT" />
+      <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
+      <removed_mapping ext="bat" approved="true" type="Batch" />
+      <removed_mapping ext="cmd" approved="true" type="Batch" />
+      <removed_mapping ext="config" approved="true" type="Erlang Terms" />
+      <removed_mapping ext="psd" approved="true" type="Image" />
+      <removed_mapping ext="py" approved="true" type="Python" />
+    </extensionMap>
+  </component>
+</application>
