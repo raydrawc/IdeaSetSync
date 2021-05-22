@@ -1,7 +1,14 @@
 <templateSet group="erlang">
-  <template name="&gt;--" value="%% ----------------------------------------------------&#10;%% &#10;%% ----------------------------------------------------" description="show ---" toReformat="false" toShortenFQNames="true">
+  <template name="&gt;--" value="%% ----------------------------------------------------&#10;%% $1$&#10;%% ----------------------------------------------------" description="show ---" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="&gt;do_fun" value="do_$1$([], Role, _Args) -&gt; &#10;    {ok, Role};&#10;do_$1$([label | T], Role = #role{}, Args = #{}) -&gt; &#10;    do_$1$(T, Role, Args);&#10;do_$1$([Label | _], _Role, Args) -&gt;&#10;    ?ERROR(&quot;function undefine| label:~w args:~w&quot;, [Label, Args]),&#10;    {error, function_no_match}.&#10;   " description="do_function" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ERLANG_CODE" value="true" />
     </context>
   </template>
 </templateSet>
